@@ -15,6 +15,9 @@ export const defaultTheme = {
       main: '#f1f1f1',
       dark: '#121212',
     },
+    shadow: {
+      blue: 'rgba(47, 60, 126, 0.3)',
+    },
   },
   breakpoints: {
     xs: '(max-width: 425px)',

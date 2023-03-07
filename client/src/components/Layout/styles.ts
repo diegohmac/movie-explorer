@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const Card = styled.div`
   width: 80vw;
   height: 80vh;
-  box-shadow: rgba(47, 60, 126, 0.3) 0px 30px 40px;
+  box-shadow: ${(props) => `${props.theme.colors.shadow.blue} 0px 30px 40px`};
   background-color: ${(props) => props.theme.colors.secondary.main};
 
   border-radius: 8px;
