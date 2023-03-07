@@ -1,19 +1,26 @@
 export const defaultTheme = {
   colors: {
     primary: {
-      light: '#0078e2',
-      main: '#00539C',
-      dark: '#003768',
+      light: '#7d8acd',
+      main: '#2F3C7E',
+      dark: '#182258',
     },
     secondary: {
-      light: '#e9bda8',
-      main: '#EEA47F',
-      dark: '#ea8553',
+      light: '#fff5f6',
+      main: '#FBEAEB',
+      dark: '#b38587',
     },
     neutral: {
-      light: '#ffffff',
-      main: '#fafbfb',
-      dark: '#efefef',
+      light: '#fafbfb',
+      main: '#f1f1f1',
+      dark: '#121212',
     },
+  },
+  breakpoints: {
+    xs: '(max-width: 425px)',
+    sm: '(max-width: 768px)',
+    md: '(max-width: 1024px)',
+    lg: '(max-width: 1440px)',
+    xl: '(max-width: 1980px)',
   },
 }
